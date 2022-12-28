@@ -11,6 +11,9 @@ public class Main {
         checkIsFun(true);
         System.out.println(metoda1(12));
 
+        //przeciążenie metod
+        System.out.println(dodawanie(2,4));
+        System.out.println(dodawanie(2.4,2.8));
     }
 
 
@@ -30,4 +33,14 @@ public class Main {
         liczba++;
         return liczba;
     }
+
+    public static int dodawanie(int num1, int num2){
+        return num1+num2;
+    }
+
+    public static double dodawanie(double num1, double num2){
+        return num1+num2;
+    }
+
+
 }
