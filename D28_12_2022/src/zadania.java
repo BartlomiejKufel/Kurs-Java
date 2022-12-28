@@ -1,3 +1,6 @@
+import NewPackage.Kalkulator;
+import NewPackage.Prostokat;
+
 public class zadania {
     //napisz 6 zadań na metody
     public static void main(String[] args) {
@@ -12,6 +15,20 @@ public class zadania {
         for(int x: tab){
             System.out.println(x);
         }
+
+        //zadanie 1 klasy
+        Prostokat pr = new Prostokat(2,5);
+        pr.obliczObwód();
+        pr.obliczPole();
+
+
+        //zadanie 2 klasy
+        Kalkulator kl = new Kalkulator();
+        kl.dodaj(2,5);
+        kl.odejmij(4,7);
+        kl.podziel(2,5);
+        kl.pomnoz(6,8);
+
     }
 
     public static String zadanie4(String word1, String word2, String word3, String separator){
