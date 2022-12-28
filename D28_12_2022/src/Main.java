@@ -1,3 +1,5 @@
+import NewPackage.Test;
+
 public class Main {
     public static void main(String[] args) {
         int[] tab = {12, 3, 1, 2, 312, 3, -12};
@@ -14,6 +16,16 @@ public class Main {
         //przeciążenie metod
         System.out.println(dodawanie(2,4));
         System.out.println(dodawanie(2.4,2.8));
+
+        //stworzenie obiektu
+        NewClass cl = new NewClass(15);
+        cl.wypiszWiek();
+
+        //wywołanie classy z pakage
+        Test tsd = new Test();
+        Test ts = new Test("Bartłomiej Kufel", 58,182);
+        ts.powitanie();
+        ts.info();
     }
 
 
