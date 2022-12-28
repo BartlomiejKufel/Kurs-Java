@@ -1,4 +1,5 @@
 import NewPackage.Test;
+import NewPackage.Czlowiek;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,6 +27,14 @@ public class Main {
         Test ts = new Test("Bartłomiej Kufel", 58,182);
         ts.powitanie();
         ts.info();
+
+        //geter i seter
+        Czlowiek cz = new Czlowiek();
+        cz.setImie("Piotr");
+        cz.setNazwisko("Sawilski");
+        cz.setWaga(85);
+        System.out.println(cz.getImie()+" "+cz.getNazwisko()+", "+cz.getWaga()+"kg");
+
     }
 
 
