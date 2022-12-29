@@ -20,5 +20,12 @@ public class zadania {
         Warehouse wr = new Warehouse("Kraków", 36, "Średni", true);
         System.out.println(wr);
 
+        //zadanie 3
+        Samochod sm = new Samochod(270, 1708);
+        Audi au = new Audi(260, 3456);
+        BMW bmw = new BMW(400, 4512);
+        Skoda sk = new Skoda(123,1233);
+
+
     }
 }
