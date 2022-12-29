@@ -11,8 +11,14 @@ public class zadania {
         System.out.println(smt);
 
         //zadanie 2
-        Building bd = new Building("Jasło", 12,"duży" );
+        Building bd = new Building("Jasło", 12,"Duży" );
         System.out.println(bd);
+
+        House hm = new House("Krosno", 27, "Mały", "Kacper Wolski");
+        System.out.println(hm);
+
+        Warehouse wr = new Warehouse("Kraków", 36, "Średni", true);
+        System.out.println(wr);
 
     }
 }

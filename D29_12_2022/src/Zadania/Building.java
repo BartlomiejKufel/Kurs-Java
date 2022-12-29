@@ -10,12 +10,12 @@ public class Building {
     }
 
     public Building(String address, String size) {
-        new Building(address);
+        this(address);
         this.size = size;
     }
 
     public Building(String address, double temperature, String size) {
-        new Building(address,size);
+        this(address,size);
         this.temperature=temperature;
     }
 

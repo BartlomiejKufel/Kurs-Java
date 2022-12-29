@@ -7,4 +7,11 @@ public class House extends Building{
         super(address, temperature, size);
         this.resident = resident;
     }
+
+    @Override
+    public String toString() {
+        return "House{" +
+                "resident='" + resident + '\'' +
+                "} " + super.toString();
+    }
 }
