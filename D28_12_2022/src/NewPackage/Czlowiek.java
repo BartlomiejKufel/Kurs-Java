@@ -5,8 +5,6 @@ public class Czlowiek {
     private String nazwisko;
     private int waga;
 
-    public Czlowiek() {
-    }
 
     public void setImie(String imie) {
         this.imie = imie;
