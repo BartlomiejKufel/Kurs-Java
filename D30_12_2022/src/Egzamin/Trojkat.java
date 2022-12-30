@@ -38,7 +38,7 @@ public class Trojkat extends ksztalt2D{
         a=Math.sqrt(Math.pow(C.x- B.x,2 )+Math.pow(C.y-B.y,2));
         b=Math.sqrt(Math.pow(A.x- C.x,2 )+Math.pow(A.y-C.y,2));
         c=Math.sqrt(Math.pow(A.x- B.x,2 )+Math.pow(A.y-B.y,2));
-    }4
+    }
 
 
     @Override
