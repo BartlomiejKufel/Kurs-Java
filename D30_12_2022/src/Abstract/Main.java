@@ -13,7 +13,7 @@ public class Main {
         Zwierze zw3 = new Krokodyl("Krokodyl zwyczajny", 10);
         zw3.biegnij();
         zw3.wydajDzwiek();
-        
+
 
     }
 
