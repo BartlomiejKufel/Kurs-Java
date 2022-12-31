@@ -7,6 +7,6 @@ public class Ssak extends Zwierze{
 
     @Override
     public void wydajDzwiek(){
-        System.out.println("Ssak wydaje dzwiek");
+        System.out.println("Ssak wydaje dźwięk");
     }
 }

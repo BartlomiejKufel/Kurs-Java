@@ -43,7 +43,12 @@ public class Trojkat extends ksztalt2D{
 
     @Override
     public double obwod() {
-        return 0;
+        return a+b+c;
+    }
+
+    @Override
+    public void show(){
+        System.out.println("Obwód trójkąta: "+ obwod());
     }
 
     public double getA() {

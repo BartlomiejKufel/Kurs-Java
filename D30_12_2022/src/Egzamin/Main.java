@@ -12,6 +12,11 @@ public class Main {
         System.out.println("\nDługość a:"+tr.getA());
         System.out.println("Długość b:"+tr.getB());
         System.out.println("Długość c:"+tr.getC());
+        tr.show();
 
+        System.out.println("");
+
+        Kolo k = new Kolo(new Punkt(0,0), 1);
+        k.show();
     }
 }

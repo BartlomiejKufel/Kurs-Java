@@ -7,6 +7,6 @@ public class Gad extends Zwierze{
 
     @Override
     public void wydajDzwiek(){
-        System.out.println("Gad wydaje dzwiek");
+        System.out.println("Gad wydaje dźwięk");
     }
 }
